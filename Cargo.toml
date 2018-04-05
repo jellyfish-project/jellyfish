@@ -1,6 +1,10 @@
 [package]
 name = "jellyfish"
-version = "0..0"
+version = "0.1.0"
 authors = ["Hiroki Noda <kubo39@gmail.com>"]
+
+[[bin]]
+name = "httpd"
+path = "src/bin/httpd.rs"
 
 [dependencies]
