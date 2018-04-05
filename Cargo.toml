@@ -1,0 +1,6 @@
+[package]
+name = "jellyfish"
+version = "0..0"
+authors = ["Hiroki Noda <kubo39@gmail.com>"]
+
+[dependencies]
