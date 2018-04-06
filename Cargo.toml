@@ -8,3 +8,6 @@ name = "httpd"
 path = "src/bin/httpd.rs"
 
 [dependencies]
+lazy_static = "1"
+libc = "0.2"
+memmap = "0.6"
