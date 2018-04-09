@@ -7,5 +7,9 @@ authors = ["Hiroki Noda <kubo39@gmail.com>"]
 name = "httpd"
 path = "src/bin/httpd.rs"
 
+[[bin]]
+name = "fsqual"
+path = "src/bin/fsqual.rs"
+
 [dependencies]
 linux_aio = { git = "https://github.com/sile/linux_aio", tag = "0.0.1" }
