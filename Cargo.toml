@@ -8,3 +8,4 @@ name = "httpd"
 path = "src/bin/httpd.rs"
 
 [dependencies]
+linux_aio = { git = "https://github.com/sile/linux_aio", tag = "0.0.1" }
