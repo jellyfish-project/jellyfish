@@ -12,4 +12,6 @@ name = "fsqual"
 path = "src/bin/fsqual.rs"
 
 [dependencies]
-linux_aio = { git = "https://github.com/sile/linux_aio", tag = "0.0.1" }
+libc = "0.2.40"
+scopeguard = "0.3.3"
+linux_aio = { git = "https://github.com/kubo39/linux_aio", rev = "88c9c0b0d7c1307982235cda04827407df4c8c7d" }
