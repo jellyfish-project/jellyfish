@@ -7,7 +7,13 @@ authors = ["Hiroki Noda <kubo39@gmail.com>"]
 name = "httpd"
 path = "src/bin/httpd.rs"
 
+[[bin]]
+name = "fsqual"
+path = "src/bin/fsqual.rs"
+
 [dependencies]
 lazy_static = "1"
-libc = "0.2"
+libc = "0.2.40"
+linux_aio = { git = "https://github.com/kubo39/linux_aio", rev = "88c9c0b0d7c1307982235cda04827407df4c8c7d" }
 memmap = "0.6"
+scopeguard = "0.3.3"
