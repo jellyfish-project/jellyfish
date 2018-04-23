@@ -16,10 +16,10 @@ fn inner_main() -> i32 {
         Ok(()) => {
             println!("OK");
             0
-        },
+        }
         Err(msg) => {
             eprintln!("{}", msg);
             1
-        },
+        }
     }
 }
